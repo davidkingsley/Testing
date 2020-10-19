@@ -1,0 +1,47 @@
+{
+  "name": "TestProcess",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.ZipUnzip.Activities": "[2019.4.1]",
+    "OracleLogin": "[1.0.7339.17492]",
+    "UiPath.ActiveDirectoryDomainServices.Activities": "[1.1.2]",
+    "UiPath.Azure.Activities": "[1.1.2]",
+    "UiPath.AzureActiveDirectory.Activities": "[1.1.3]",
+    "UiPath.Excel.Activities": "[2.5.1]",
+    "UiPath.ExchangeServer.Activities": "[1.0.5]",
+    "UiPath.GSuite.Activities": "[1.4.2]",
+    "UiPath.Mail.Activities": "[1.3.0]",
+    "UiPath.MicrosoftVision.Activities": "[2.2.1]",
+    "UiPath.MobileAutomation.Activities": "[20.4.3]",
+    "UiPath.System.Activities": "[18.4.2]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]",
+    "UiPath.Vision": "[2.0.3]",
+    "UiPath.VMware.Activities": "[1.1.2]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.4.0",
+  "projectVersion": "1.0.7376.29069",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
